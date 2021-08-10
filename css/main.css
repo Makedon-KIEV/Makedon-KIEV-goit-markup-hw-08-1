@@ -1211,7 +1211,7 @@ img {
   padding-left: 42px;
   transition: border-color 250ms var(--cubic);
   margin-top: 4px;
-  
+  outline: none;
 }
 
 .modal-form__input:hover, .modal-form__input:focus {
@@ -1251,6 +1251,7 @@ img {
   padding: 12px 16px;
   resize: none;
   transition: border-color 250ms var(--cubic);
+  outline: none;
 }
 
 .modal-form__message:hover, .modal-form__message:focus {

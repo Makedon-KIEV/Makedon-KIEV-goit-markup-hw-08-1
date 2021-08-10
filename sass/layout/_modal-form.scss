@@ -38,6 +38,7 @@
     padding-left : 42px;
     transition   : border-color 250ms var(--cubic);
     margin-top   : 4px;
+    outline: none;
 
     &:hover,
     &:focus {
@@ -79,6 +80,7 @@
     padding      : 12px 16px;
     resize       : none;
     transition   : border-color 250ms var(--cubic);
+    outline: none;
 
     &:hover,
     &:focus {
