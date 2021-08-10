@@ -1,0 +1,25 @@
+.modal-btn {
+    font-weight: 700;
+    font-size  : 16px;
+    line-height: 1.88;
+
+    display       : block;
+    align-items   : center;
+    text-align    : center;
+    letter-spacing: 0.06em;
+
+    cursor          : pointer;
+    color           : var(--title-text-color);
+    background-color: var(--accent-color);
+    box-shadow      : var(--shadow-hero-button);
+    border-radius   : 4px;
+    border          : none;
+
+    transition: background-color 1000ms var(--cubic), box-shadow 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+        background-color: var(--hero-button-hover-color);
+        box-shadow      : var(--shadow-hero-button);
+    }
+}

@@ -1,0 +1,15 @@
+.social-link-list {
+    justify-content: center;
+}
+
+.social-link-list__link {
+    background-color: var(--social-links-bg-f);
+}
+
+.social-link-list__icon.social-link-list__icon_color {
+    fill: var(--title-text-color);
+}
+
+.social-link-list__item:not(:last-child) {
+    margin-right: 10px;
+}

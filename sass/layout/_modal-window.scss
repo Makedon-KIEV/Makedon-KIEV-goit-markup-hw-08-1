@@ -1,0 +1,51 @@
+.modal {
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    width           : 450px;
+    height          : 609px;
+    background-color: var(--title-text-color);
+
+    box-shadow   : var(--box-shadow);
+    border-radius: 4px;
+
+    transform: translate(-50%, -50%);
+    padding  : 40px;
+
+    @media screen and (min-width: 1200px) {
+        width : 528px;
+        height: 581px;
+    }
+
+    @media screen and (max-width: 449px) {
+        width: 100%;
+    }
+}
+
+.close-btn {
+    position        : absolute;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    top             : 8px;
+    right           : 8px;
+    width           : 30px;
+    height          : 30px;
+    border-radius   : 50%;
+    border          : 1px solid var(--modal-button-border);
+    background-color: transparent;
+    cursor          : pointer;
+    padding         : 0;
+}
+
+.close-btn__icon {
+    width     : 11px;
+    height    : 11px;
+    fill      : var(--logo-studio);
+    transition: fill 250ms var(--cubic);
+
+    .close-btn:focus &,
+    .close-btn:hover & {
+        fill: var(--accent-color);
+    }
+}

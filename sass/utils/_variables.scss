@@ -1,0 +1,36 @@
+:root {
+    --secondary-font               : 'Raleway', sans-serif;
+    --accent-color                 : #2196f3;
+    --primary-color                : #212121;
+    --secondary-text-color         : #757575;
+    --title-text-color             : #ffffff;
+    --background-color             : #2f303a;
+    --widgets-link-background-color: #f5f4fa;
+    --logo-studio                  : #000000;
+    --mail-color                   : rgba(255, 255, 255, 0.6);
+    --line                         : #ececec;
+    --border-projects__content     : #eeeeee;
+    --shadow-one                   : rgba(0, 0, 0, 0.12);
+    --shadow-two                   : rgba(0, 0, 0, 0.14);
+    --shadow-three                 : rgba(0, 0, 0, 0.2);
+    --shadow-hero-button           : 0px 4px 4px rgba(0, 0, 0, 0.15);
+    --hero-bg                      : #c4c4c4;
+    --margin                       : 30px;
+    --social-links                 : #afb1b8;
+    --social-links-bg-f            : rgba(255, 255, 255, 0.1);
+    --box-shadow                   : 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    --box-shadow-pr: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    --portfolio-wigets-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    --gradient-hero             : rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
+    --modal-button-border       : rgba(0, 0, 0, 0.1);
+    --projects__overlay-bg-color: rgba(33, 150, 243, 0.9);
+    --job-img-overlay-bg-color  : rgba(47, 48, 58, 0.8);
+    --cubic                     : cubic-bezier(0.4, 0, 0.2, 1);
+    --hero-button-hover-color   : #188ce8;
+    --form-border-color         : rgba(33, 33, 33, 0.2);
+    --textaria-text-color       : rgba(117, 117, 117, 0.5);
+    --footer-form__input-color  : rgba(255, 255, 255, 0.3);
+}

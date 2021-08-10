@@ -1,0 +1,34 @@
+// Utils
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixins';
+
+// Base
+
+@import './base/base';
+@import './base/container';
+
+// Components
+
+@import './components/logo';
+@import './components/modal-btn';
+@import './components/social-links';
+@import './components/backdrop';
+
+// Layout
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/our-job';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/footer-social-links';
+@import './layout/footer-form';
+@import './layout/portfolio';
+@import './layout/modal-window';
+@import './layout/modal-form';
+@import './layout/modal-checkbox';
+@import './layout/mobile-menu';

@@ -1,0 +1,43 @@
+.clients-list {
+    @include parentGrid();
+}
+
+.clients-list__items {
+    @include itemGrid();
+    flex-basis: calc((100% - 2 * 30px) / 2);
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 3 * 30px) / 3);
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 6 * 30px) / 6);
+    }
+}
+
+.clients-list__links {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 100%;
+    height         : 92px;
+    border         : 1px solid var(--social-links);
+    border-radius  : 4px;
+    transition     : border 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+        border       : 1px solid var(--accent-color);
+        border-radius: 4px;
+    }
+}
+
+.clients-list__icons {
+    fill      : var(--social-links);
+    transition: fill 250ms var(--cubic);
+
+    .clients-list__links:hover &,
+    .clients-list__links:focus & {
+        fill: var(--accent-color);
+    }
+}

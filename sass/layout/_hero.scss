@@ -1,0 +1,103 @@
+.hero {
+    background-color: var(--hero-bg);
+    text-align      : center;
+    padding-top     : 118px;
+    padding-bottom  : 118px;
+
+    @media screen and (min-width: 1600px) {
+        width: 1600px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top   : 200px;
+        padding-bottom: 200px;
+    }
+
+    .hero__modal-btn {
+        margin : 0 auto;
+        padding: 10px 32px;
+    }
+}
+
+.hero-container {
+    width : 100%;
+    margin: 0 auto;
+
+    @media screen and (min-width: 480px) {
+        width: 360px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+    }
+}
+
+.overlay {
+    margin-left        : auto;
+    margin-right       : auto;
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+    .overlay {
+        background-image: linear-gradient(var(--gradient-hero)), url('../images/hero/hero-mobile.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 280px) and (max-width: 480px),
+screen and (min-resolution: 192dpi) and (min-width: 280px) and (max-width: 480px),
+screen and (min-resolution: 2dppx) and (min-width: 280px) and (max-width: 480px) {
+    .overlay {
+        background-image: linear-gradient(var(--gradient-hero)),
+            url('../images/hero/hero-mobile@2x.jpg');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .overlay {
+        background-image: linear-gradient(var(--gradient-hero)), url('../images/hero/hero-tablet.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
+screen and (min-resolution: 192dpi) and (max-width: 768px),
+screen and (min-resolution: 2dppx) and (max-width: 768px) {
+    .overlay {
+        background-image: linear-gradient(var(--gradient-hero)),
+            url('../images/hero/hero-tablet@2x.jpg');
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .overlay {
+        background-image: linear-gradient(var(--gradient-hero)), url('../images/hero/Img.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (min-resolution: 192dpi) and (min-width: 769px),
+screen and (min-resolution: 2dppx) and (min-width: 769px) {
+    .overlay {
+        background-image: linear-gradient(var(--gradient-hero)),
+            url('../images/hero/hero-desktop@2x.jpg');
+    }
+}
+
+.hero__title {
+    font-weight: 900;
+    font-size  : 26px;
+    line-height: 1.62;
+
+    @media screen and (min-width: 1200px) {
+        font-weight   : 900;
+        font-size     : 44px;
+        line-height   : 1.36;
+        letter-spacing: 0.06em;
+    }
+
+    text-transform: uppercase;
+    margin-bottom : 30px;
+    color         : var(--title-text-color);
+}
