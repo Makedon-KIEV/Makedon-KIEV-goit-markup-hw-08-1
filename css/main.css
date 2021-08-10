@@ -1211,6 +1211,7 @@ img {
   padding-left: 42px;
   transition: border-color 250ms var(--cubic);
   margin-top: 4px;
+  
 }
 
 .modal-form__input:hover, .modal-form__input:focus {
